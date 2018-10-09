@@ -1,0 +1,3 @@
+## List all buckets
+aws s3api list-buckets --query "Buckets[].Name"
+
